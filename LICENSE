@@ -1,0 +1,91 @@
+Smart-AID — architecture, design and MVP portfolio
+
+Copyright © 2025–2026 Jonatan Estiven Sánchez Vargas.
+ALL RIGHTS RESERVED.
+
+
+────────────────────────────────────────────────────────────────────────
+DELIBERATE CHOICE, NOT AN OVERSIGHT
+────────────────────────────────────────────────────────────────────────
+
+  This repository is published under full copyright, with no open-source
+  or Creative Commons licence granted. That is intentional.
+
+  The purpose of this repository is to be READ and EVALUATED — by
+  reviewers, collaborators, academic peers and prospective partners.
+  It is not published for reuse.
+
+  If you are here to read the work, everything you need is granted below.
+
+
+────────────────────────────────────────────────────────────────────────
+WHAT YOU MAY DO
+────────────────────────────────────────────────────────────────────────
+
+  · Read, view and browse this repository.
+  · Evaluate it for academic, professional or recruitment purposes.
+  · Link to it.
+  · Quote brief excerpts with attribution, where permitted by the
+    applicable law of fair dealing, fair use, or the corresponding
+    limitations and exceptions to copyright.
+
+
+────────────────────────────────────────────────────────────────────────
+WHAT YOU MAY NOT DO WITHOUT PRIOR WRITTEN PERMISSION
+────────────────────────────────────────────────────────────────────────
+
+  · Copy, reproduce or republish this work, in whole or in substantial
+    part, in any medium.
+  · Modify it, adapt it, or create derivative works from it.
+  · Redistribute it, whether modified or unmodified.
+  · Use it for any commercial purpose.
+  · Use its architecture, methodology, specifications or design as the
+    basis of another product, service, publication or deliverable.
+  · Use it to train, fine-tune or evaluate machine-learning models.
+
+
+────────────────────────────────────────────────────────────────────────
+NO PATENT OR TRADEMARK RIGHTS
+────────────────────────────────────────────────────────────────────────
+
+  Nothing here grants any licence, immunity or right under any patent,
+  utility model, industrial design or other industrial property right,
+  whether existing or applied for in the future. Industrial property
+  over the wearable sensing device and its analytical method is
+  expressly reserved.
+
+  The names "Smart-AID", "Smart-AID Anti-Stress", "Alan & Aura",
+  "SpectroStress" and "NeuroQuantIA" are reserved. No licence to use
+  them is granted.
+
+
+────────────────────────────────────────────────────────────────────────
+PLATFORM TERMS
+────────────────────────────────────────────────────────────────────────
+
+  This repository is hosted on GitHub. GitHub's Terms of Service allow
+  any user of the platform to view and fork public repositories,
+  irrespective of the licence chosen by the owner. That platform-level
+  permission is a condition of publishing here and is not something this
+  notice can revoke. Every other right remains reserved, and forking on
+  the platform grants no right to redistribute, adapt or use this work
+  outside of it.
+
+
+────────────────────────────────────────────────────────────────────────
+THIRD-PARTY MATERIAL
+────────────────────────────────────────────────────────────────────────
+
+  Standards, literature and legal instruments referenced in this
+  repository are cited by identifier only and are never reproduced.
+  They remain the property of their respective rights holders. See
+  NOTICE.md.
+
+
+────────────────────────────────────────────────────────────────────────
+PERMISSIONS AND CONTACT
+────────────────────────────────────────────────────────────────────────
+
+  Requests for any use beyond the above are welcome. Please open an
+  issue on this repository, or contact the author through the profile
+  linked from the README.

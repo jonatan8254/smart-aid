@@ -1,0 +1,52 @@
+# ── Material de terceros con derechos ──────────────────────────────────
+# Este repositorio CITA normas y libros; no los redistribuye.
+# Nunca versionar: ISO/IEC, PMBOK, Wiegers, Rosenberg ni ningún corpus
+# con licencia. Ver NOTICE.md § "Third-party material".
+*.pdf
+*.epub
+*.mobi
+/normas/
+/libros/
+/corpus/
+
+# ── Material privado del proyecto ──────────────────────────────────────
+# Estudios financieros con estructura de costos, negociación de
+# proveedores, acuerdos con terceros y especificaciones no publicables.
+/private/
+/_private/
+*_PRIVADO.*
+*_PRIVATE.*
+
+# ── Secretos ───────────────────────────────────────────────────────────
+.env
+.env.*
+*.key
+*.pem
+*.p12
+credentials*
+secrets*
+
+# ── Entornos y dependencias (para cuando haya código) ──────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.egg-info/
+node_modules/
+dist/
+build/
+
+# ── Sistema operativo y editores ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# ── Temporales ─────────────────────────────────────────────────────────
+*.tmp
+*.bak
+scratchpad/

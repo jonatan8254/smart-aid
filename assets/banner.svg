@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="bt bd">
+  <title id="bt">Smart-AID</title>
+  <desc id="bd">Banner del ecosistema Smart-AID. Una señal fisiológica atraviesa el ancho de la imagen: comienza activa en ámbar, la voz de Alan — el emblema de la aplicación —, y se vuelve serena en teal, la voz de Aura. Sobre ella, el nombre Smart-AID y el subtítulo "Responsible conversational AI for non-clinical emotional support".</desc>
+
+  <defs>
+    <linearGradient id="sig" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#D98A2B"/>
+      <stop offset="42%"  stop-color="#D98A2B"/>
+      <stop offset="58%"  stop-color="#7E8A5A"/>
+      <stop offset="78%"  stop-color="#3E8E82"/>
+      <stop offset="100%" stop-color="#3E8E82"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#D98A2B" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#D98A2B" stop-opacity=".22"/>
+      <stop offset="80%"  stop-color="#3E8E82" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#3E8E82" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#D98A2B"/>
+      <stop offset="100%" stop-color="#3E8E82"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="1280" height="320" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="320" fill="#16150F"/>
+
+    <!-- halo suave bajo la señal -->
+    <path d="M0 196 C 90 196 120 178 168 178 C 214 178 236 214 286 214 C 336 214 352 172 402 172
+             C 452 172 470 202 516 202 C 560 202 578 168 620 168 L 646 168 L 664 120 L 686 246
+             L 706 150 L 726 196 L 764 196 C 812 196 828 150 872 150 C 916 150 930 218 976 218
+             C 1020 218 1036 164 1082 164 C 1128 164 1146 200 1192 200 L 1280 200
+             L 1280 320 L 0 320 Z" fill="url(#fade)"/>
+
+    <!-- la señal: serena a la izquierda, activa a la derecha -->
+    <path d="M0 196 C 90 196 120 178 168 178 C 214 178 236 214 286 214 C 336 214 352 172 402 172
+             C 452 172 470 202 516 202 C 560 202 578 168 620 168 L 646 168 L 664 120 L 686 246
+             L 706 150 L 726 196 L 764 196 C 812 196 828 150 872 150 C 916 150 930 218 976 218
+             C 1020 218 1036 164 1082 164 C 1128 164 1146 200 1192 200 L 1280 200"
+          fill="none" stroke="url(#sig)" stroke-width="3.25" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- dos puntos: las dos voces — Alan (ámbar) primero -->
+    <circle cx="286" cy="214" r="5.5" fill="#D98A2B"/>
+    <circle cx="976" cy="218" r="5.5" fill="#3E8E82"/>
+
+    <g font-family="Figtree, 'Segoe UI', Roboto, system-ui, -apple-system, Helvetica, Arial, sans-serif">
+      <text x="80" y="112" fill="#EDE9E1" font-size="62" font-weight="600" letter-spacing="-1.4">Smart-AID</text>
+      <text x="80" y="150" fill="#B4AFA5" font-size="20" font-weight="400" letter-spacing=".2">Responsible conversational AI for non-clinical emotional support</text>
+      <text x="80" y="286" fill="#6B6862" font-size="15" font-weight="400" letter-spacing="1.6">ALAN ACTIVATES  ·  AURA REGULATES</text>
+    </g>
+
+    <rect x="80" y="168" width="132" height="3" rx="1.5" fill="url(#rule)"/>
+  </g>
+</svg>
